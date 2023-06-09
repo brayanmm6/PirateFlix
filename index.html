@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exercicio</title>
+
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="reset.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <div class="area-de-navegacao">
+                    <li class="logo-clicavel">
+                        <a class="logo" href="#logo">PirateFlix</a>
+                    <li>
+                        <div class="seletores-area">
+                            <select name="inicio" id="seletores-cabecalho">
+                                <option value="inicio" selected>Inicio</option>
+                                <option value="todos">Todos</option>
+                                <option value="filmes">Filmes</option>
+                                <option value="esporte">Esporte</option>
+                            </select>
+                            <select name="loja" id="seletores-cabecalho">
+                                <option value="loja">Loja</option>
+                                <option value="todos">Todos</option>
+                                <option value="alugar">Alugar</option>
+                                <option value="canais">Canais</option>
+                            </select>
+                            <select name="categorias" id="seletores-cabecalho">
+                                <div class="categorias-seletor">
+                                    <option value="categiorias" selected>Categorias</option>
+                                    <option value="acao-e-aventura">Ação e Aventura</option>
+                                    <option value="anime">Anime</option>
+                                    <option value="comedia">Comédia</option>
+                                    <option value="documentarios">Documentários</option>
+                                    <option value="ddrama">Drama</option>
+                                    <option value="fantasia">Fantasia</option>
+                                    <option value="terror">Terror</option>
+                                    <option value="internacionais">Internacionais</option>
+                                    <option value="infantis">Infantis</option>
+                                    <option value="videoclipes-e-shows">Videoclips e Shows</option>
+                                    <option value="supense-e-misterio">Supende e Mintério</option>
+                                    <option value="romance">Romance</option>
+                                </div>
+                            </select>
+                            <select name="minha-area" id="seletores-cabecalho">
+                                <option value="minha-area">Minha área</option>
+                                <option value="todos">Todos</option>
+                                <option value="sua-lista">Sua lista</option>
+                                <option value="alugueis">Aluguéis</option>
+                            </select>
+                        </div>
+                    </li>
+                </div>
+            </ul>
+        </nav>
+
+    </header>
+    <main>
+        <section>
+
+            <div class="temporadas-area-limite">
+                <div class="temporadas-area">
+                    <select class="temporada-botao" name="temporadas" id="temporadas">
+                        <option value="1">Temporada 1</option>
+                        <option value="2">Temporada 2</option>
+                        <option value="3">Temporada 3</option>
+                        <option value="4">Temporada 4</option>
+                        <option value="5">Temporada 5</option>
+                        <option value="6">Temporada 6</option>
+                        <option value="7">Temporada 7</option>
+                        <option value="8">Temporada 8</option>
+                        <option value="9">Temporada 9</option>
+                        <option value="10">Temporada 10</option>
+                        <option value="11">Temporada 11</option>
+                        <option value="12">Temporada 12</option>
+                        <option value="13">Temporada 13</option>
+                        <option value="14">Temporada 14</option>
+                        <option value="15">Temporada 15</option>
+                        <option value="16">Temporada 16</option>
+                        <option value="17">Temporada 17</option>
+                        <option value="18">Temporada 18</option>
+                        <option value="19">Temporada 19</option>
+                    </select>
+                </div>
+            </div>
+
+            <picture>
+                <source srcset="./" media="(max-width: 750px)">
+                <img src="./images/background-ofc.jpg" alt="fundo-normal">
+            </picture>
+
+            <div class="serie-informacoes">
+                <picture class="logo-serie">
+                    <img src="./images/ABC_HD_logo.png" alt="ABC-logo"> 
+                    <img src="./images/Grey's_Anatomy_Logo.png" alt="greys-anatomy-logo">
+                </picture>
+
+                <p class="sinopse-texto">Este drama intenso aompanha Meredith Grey e a equipe de médicos do Grey Sloan Memorial enquanto enfrentam diariamente decisõeqs de vida ou morte. Eles procuram conforto um no outro e, às vezes, mais do que apenas amizade. Juntos, descobrem que nem a medicina nem os relacionamentos são preto no Branco.</p>
+            </div>
+
+            <div class="botao-play">
+                <a href="#play">Play</a>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

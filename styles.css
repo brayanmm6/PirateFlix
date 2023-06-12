@@ -5,6 +5,7 @@ body{
     min-width: 375px;
     max-width: 3000px;
     margin: 0px auto;
+    background-color: black;
 }
 
 
@@ -89,6 +90,8 @@ BOTAO DE TEMPORADAS
 select .temporada-botao:hover{
     cursor: pointer;
 }
+
+
 /* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 SINOPSE
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
@@ -144,5 +147,47 @@ BOTAO PLAY
 .botao-play a:hover{
     transform: scale(1.10);
     cursor: pointer;
+    color: red;
+    background-color: rgba(0, 0, 0, 0.8);
 }
 
+
+
+
+/* VIDEO HUB */
+
+
+
+video{
+    width: 300px;
+    height: 200px;
+    margin: 15px;
+    border: 2px solid red;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+video:hover{
+    transform: scale(1.10);
+    cursor: pointer;
+    background-color: gray;
+}
+
+.hub{
+    color: red;
+    padding: 0px 50px 50px 50px;
+    text-align: center;
+}
+
+.hub h2{
+    border: 1px solid red;
+    margin: 35px;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+.hub-videos{
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+}

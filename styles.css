@@ -20,48 +20,102 @@ CABEÇALHO
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
 
 header{
-    width: auto;
     min-width: 375px;
-    padding: 5px;
-    background-color: black;
+    max-width: auto;
+    min-height: 100%;
+    height: auto;
 }
-
 
 .area-de-navegacao{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    background-color: black;
+    min-width: 375px;
+    max-width: auto;
     padding: 10px;
+
 }
 
-.logo-clicavel{
-    width: 100px;   
-}
 
 .logo{
-    font-size: 20px;
+    font-size: 18px;
     color: red;
 }
 
-
-select{
-    font-size: 15px;
-    font-family: 'Lato', Arial, Helvetica, sans-serif;
-    color: white;
-    border: 0;
+.seletor{
+    position: relative;
+    min-width: 100px;
     text-align: center;
-    border-radius: 10px;
+    color: aliceblue;
+}
+
+.seletores-area{
+    display: flex;
+    flex-direction: row;
+}
+
+.seletor-title{
     background-color: black;
+    height: 31px;
+}
+
+.home{
+    position: absolute;
+    overflow: hidden;
+    height: 22px;
+    width: 100px;
+}
+.home:hover{
+    overflow: visible;
+    height: auto;
+    background-color: gray;
+    border-radius: 0 0 15px 15px;
     cursor: pointer;
-    margin: 0 10px 0 10px;
 }
 
-
-select:hover{
-    transform: scale(1.10);
+li:hover{
+    background-color: aliceblue;
 }
 
+.store{
+    position: absolute;
+    overflow: hidden;
+    height: 22px;
+    width: 100px;
+}
+.store:hover{
+    cursor: pointer;
+    overflow: visible;
+    height: auto;
+    background-color: gray;
+}
 
+.genres{
+    position: absolute;
+    overflow: hidden;
+    height: 22px;
+    width: 100px;
+}
+.genres:hover{
+    cursor: pointer;
+    overflow: visible;
+    height: auto;
+    background-color: gray;
+}
+
+.my-stuff{
+    position: absolute;
+    overflow: hidden;
+    height: 22px;
+    width: 100px;
+}
+.my-stuff:hover{
+    cursor: pointer;
+    overflow: visible;
+    height: auto;
+    background-color: gray;
+}
 /* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 BOTAO DE TEMPORADAS
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
@@ -145,6 +199,7 @@ BOTAO PLAY
 }
 
 .botao-play a:hover{
+    font-size: large;
     transform: scale(1.10);
     cursor: pointer;
     color: red;

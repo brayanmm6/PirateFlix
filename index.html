@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,54 +11,65 @@
     <link rel="stylesheet" href="reset.css">
     <link rel="shortcut icon" href="./pirateflix-icon/favicon.ico" type="image/x-icon">
 </head>
+
 <body>
     <header>
         <nav>
-            <ul>
-                <div class="area-de-navegacao">
-                    <li class="logo-clicavel">
-                        <a class="logo" href="#logo">PirateFlix</a>
-                    <li>
-                        <div class="seletores-area">
-                            <select name="inicio" id="seletores-cabecalho">
-                                <option value="inicio" selected>Inicio</option>
-                                <option value="todos">Todos</option>
-                                <option value="filmes">Filmes</option>
-                                <option value="esporte">Esporte</option>
-                            </select>
-                            <select name="loja" id="seletores-cabecalho">
-                                <option value="loja">Loja</option>
-                                <option value="todos">Todos</option>
-                                <option value="alugar">Alugar</option>
-                                <option value="canais">Canais</option>
-                            </select>
-                            <select name="categorias" id="seletores-cabecalho">
-                                <div class="categorias-seletor">
-                                    <option value="categiorias" selected>Categorias</option>
-                                    <option value="acao-e-aventura">Ação e Aventura</option>
-                                    <option value="anime">Anime</option>
-                                    <option value="comedia">Comédia</option>
-                                    <option value="documentarios">Documentários</option>
-                                    <option value="ddrama">Drama</option>
-                                    <option value="fantasia">Fantasia</option>
-                                    <option value="terror">Terror</option>
-                                    <option value="internacionais">Internacionais</option>
-                                    <option value="infantis">Infantis</option>
-                                    <option value="videoclipes-e-shows">Videoclips e Shows</option>
-                                    <option value="supense-e-misterio">Supende e Mintério</option>
-                                    <option value="romance">Romance</option>
-                                </div>
-                            </select>
-                            <select name="minha-area" id="seletores-cabecalho">
-                                <option value="minha-area">Minha área</option>
-                                <option value="todos">Todos</option>
-                                <option value="sua-lista">Sua lista</option>
-                                <option value="alugueis">Aluguéis</option>
-                            </select>
-                        </div>
-                    </li>
+            <div class="area-de-navegacao">
+
+                <div>
+                    <a class="logo" href="#logo">PirateFlix</a>
                 </div>
-            </ul>
+
+                <div class="seletores-area">
+                    <div class="seletor">
+                        <ul class="home">
+                            <h3 class="seletor-title">Home</h3>
+                            <li>Movies</li>
+                            <li>Tv shows</li>
+                            <li>Movies</li>
+                        </ul>
+                    </div>
+
+                    <div class="seletor">
+                        <ul class="store">
+                            <h3 class="seletor-title">Store</h3>
+                            <li>All</li>
+                            <li>Rent</li>
+                            <li>Channels</li>
+                        </ul>
+                    </div>
+
+                    <div class="seletor">
+                        <ul class="genres">
+                            <h3 class="seletor-title">Categories</h3>
+                            <div class="genres-area">
+                                <li>Action and adventure</li>
+                                <li>Anime</li>
+                                <li>Comedy</li>
+                                <li>Documentary</li>
+                                <li>Drama</li>
+                                <li>Fantasy</li>
+                                <li>Horror</li>
+                                <li>international</li>
+                                <li>Kids</li>
+                                <li>Music videos and concerts</li>
+                                <li>Mystery and thrillers</li>
+                                <li>Romance</li>
+                            </div>
+                        </ul>
+                    </div>
+
+                    <div class="seletor">
+                        <ul class="my-stuff">
+                            <h3 class="seletor-title">My stuff</h3>
+                            <li>All</li>
+                            <li>Watchlist</li>
+                            <li>Rentals</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </nav>
 
     </header>
@@ -97,11 +109,14 @@
 
             <div class="serie-informacoes">
                 <picture class="logo-serie">
-                    <img src="./images/ABC_HD_logo.png" alt="ABC-logo"> 
+                    <img src="./images/ABC_HD_logo.png" alt="ABC-logo">
                     <img src="./images/Grey's_Anatomy_Logo.png" alt="greys-anatomy-logo">
                 </picture>
 
-                <p class="sinopse-texto">Este drama intenso aompanha Meredith Grey e a equipe de médicos do Grey Sloan Memorial enquanto enfrentam diariamente decisõeqs de vida ou morte. Eles procuram conforto um no outro e, às vezes, mais do que apenas amizade. Juntos, descobrem que nem a medicina nem os relacionamentos são preto no Branco.</p>
+                <p class="sinopse-texto">Este drama intenso aompanha Meredith Grey e a equipe de médicos do Grey Sloan
+                    Memorial enquanto enfrentam diariamente decisõeqs de vida ou morte. Eles procuram conforto um no
+                    outro e, às vezes, mais do que apenas amizade. Juntos, descobrem que nem a medicina nem os
+                    relacionamentos são preto no Branco.</p>
             </div>
 
             <div class="botao-play">
@@ -112,27 +127,38 @@
         <section class="hub">
             <h2>HUB DE VIDEOS</h2>
             <div class="hub-videos">
-                <video src="./videos/temp-1/1 (1).mp4" title="Play-video" controls preload="none" poster="./images/poster.jpg"></video>
+                <video src="./videos/temp-1/1 (1).mp4" title="Play-video" controls preload="none"
+                    poster="./images/poster.jpg"></video>
 
-                <video src="./videos/temp-1/1 (2).mp4" title="Play-video" controls preload="none" poster="./images/poster.jpg"></video>
+                <video src="./videos/temp-1/1 (2).mp4" title="Play-video" controls preload="none"
+                    poster="./images/poster.jpg"></video>
 
-                <video src="./videos/temp-1/1 (3).mp4" title="Play-video" controls preload="none" poster="./images/poster.jpg"></video>
+                <video src="./videos/temp-1/1 (3).mp4" title="Play-video" controls preload="none"
+                    poster="./images/poster.jpg"></video>
 
-                <video src="./videos/temp-1/1 (4).mp4" title="Play-video" controls preload="none" poster="./images/poster.jpg"></video>
+                <video src="./videos/temp-1/1 (4).mp4" title="Play-video" controls preload="none"
+                    poster="./images/poster.jpg"></video>
 
-                <video src="./videos/temp-1/1 (5).mp4" title="Play-video" controls preload="none" poster="./images/poster.jpg"></video>
+                <video src="./videos/temp-1/1 (5).mp4" title="Play-video" controls preload="none"
+                    poster="./images/poster.jpg"></video>
 
-                <video src="./videos/temp-1/1 (6).mp4" title="Play-video" controls preload="none" poster="./images/poster.jpg"></video>
+                <video src="./videos/temp-1/1 (6).mp4" title="Play-video" controls preload="none"
+                    poster="./images/poster.jpg"></video>
 
-                <video src="./videos/temp-1/1 (7).mp4" title="Play-video" controls preload="none" poster="./images/poster.jpg"></video>
+                <video src="./videos/temp-1/1 (7).mp4" title="Play-video" controls preload="none"
+                    poster="./images/poster.jpg"></video>
 
-                <video src="./videos/temp-1/1 (8).mp4" title="Play-video" controls preload="none" poster="./images/poster.jpg"></video>
+                <video src="./videos/temp-1/1 (8).mp4" title="Play-video" controls preload="none"
+                    poster="./images/poster.jpg"></video>
 
-                <video src="./videos/temp-1/1 (9).mp4" title="Play-video" controls preload="none" poster="./images/poster.jpg"></video>
+                <video src="./videos/temp-1/1 (9).mp4" title="Play-video" controls preload="none"
+                    poster="./images/poster.jpg"></video>
 
-                <video src="./videos/temp-1/1 (10).mp4" title="Play-video" controls preload="none" poster="./images/poster.jpg"></video>
+                <video src="./videos/temp-1/1 (10).mp4" title="Play-video" controls preload="none"
+                    poster="./images/poster.jpg"></video>
             </div>
         </section>
     </main>
 </body>
+
 </html>

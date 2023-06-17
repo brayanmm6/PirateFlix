@@ -133,7 +133,7 @@ BOTAO DE TEMPORADAS
 .temporadas-area-limite{
     position: absolute;
     top: 200px;
-    width: 300px;
+    width: 200px;
     height: 200px;
 
 }
@@ -145,13 +145,15 @@ BOTAO DE TEMPORADAS
 }
 
 .temporada-botao{
-    text-align: center;
-    padding: 15px;
+    border-color: transparent;
+    border-radius: 15px;
+    text-align: start;
+    padding: 15px 15px 15px 0;
     color: black;
     background-color: rgba(200, 200, 200, 0.8);
 }
 
-select .temporada-botao:hover{
+.temporada-botao:hover{
     cursor: pointer;
 }
 

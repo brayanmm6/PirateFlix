@@ -27,6 +27,7 @@ header{
 }
 
 .area-de-navegacao{
+    position: relative;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -46,8 +47,16 @@ header{
 .seletor{
     position: relative;
     min-width: 100px;
-    text-align: center;
     color: aliceblue;
+}
+
+.seletor h3{
+    text-align: start;
+}
+
+.seletor:nth-child(4),
+.logo{
+    margin-right: 30px;
 }
 
 .seletores-area{
@@ -70,12 +79,11 @@ header{
     overflow: visible;
     height: auto;
     background-color: gray;
-    border-radius: 0 0 15px 15px;
     cursor: pointer;
 }
 
 li:hover{
-    background-color: aliceblue;
+    background-color: darkslateblue;
 }
 
 .store{
@@ -97,9 +105,11 @@ li:hover{
     height: 22px;
     width: 100px;
 }
+
 .genres:hover{
     cursor: pointer;
     overflow: visible;
+    width: 150px;
     height: auto;
     background-color: gray;
 }
